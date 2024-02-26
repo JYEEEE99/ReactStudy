@@ -1,15 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hello from './components/Hello';
+import Name from './components/Name';
+import Parent1 from './components/ContainerSample1';
+import Parent2 from './components/ContainerSample2';
+import Parent3 from './components/ContainerSample3';
+import Page from './components/ContextSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <Hello />
+    <Name />
+    <Parent1 />
+    <Parent2 />
+    <Parent3 />
+    <Page />
   </React.StrictMode>
 );
 
